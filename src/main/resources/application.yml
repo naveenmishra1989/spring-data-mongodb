@@ -1,0 +1,12 @@
+server:
+  port: 8281
+spring:
+  application:
+    name: spring-data-mongodb
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: sonu
+      repositories:
+        enable: true
